@@ -1,6 +1,6 @@
 import { ref, unref } from 'vue';
 
-import { DEFAULT_TIME_ZONE_OPTIONS } from '#/@core/preferences';
+import { DEFAULT_TIME_ZONE_OPTIONS } from '#/@core/preferences/src';
 import {
   getCurrentTimezone,
   setCurrentTimezone,

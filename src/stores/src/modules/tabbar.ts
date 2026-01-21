@@ -9,7 +9,7 @@ import type { TabDefinition } from '#/@core/base/typings/src';
 
 import { toRaw } from 'vue';
 
-import { preferences } from '#/@core/preferences';
+import { preferences } from '#/@core/preferences/src';
 import {
   openRouteInNewWindow,
   startProgress,

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Props } from './types';
 
-import { preferences } from '#/@core/preferences';
+import { preferences } from '#/@core/preferences/src';
 import {
   Card,
   Separator,
