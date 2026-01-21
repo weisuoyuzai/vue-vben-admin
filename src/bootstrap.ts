@@ -1,11 +1,11 @@
 import { createApp, watchEffect } from 'vue';
 
-import { registerAccessDirective } from '@vben/access';
-import { registerLoadingDirective } from '@vben/common-ui/es/loading';
-import { preferences } from '@vben/preferences';
-import { initStores } from '@vben/stores';
-import '@vben/styles';
-import '@vben/styles/antd';
+import { registerAccessDirective } from '#/effects/access/src';
+import { registerLoadingDirective } from '#/effects/common-ui/src/es/loading';
+import { preferences } from '#/preferences/src';
+import { initStores } from '#/stores/src';
+import '#/styles/src';
+import '#/styles/src/antd';
 
 import { useTitle } from '@vueuse/core';
 

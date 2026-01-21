@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { SelectOption } from '@vben/types';
+import type { SelectOption } from '#/types/src';
 
 import { computed } from 'vue';
 
-import { $t } from '@vben/locales';
+import { $t } from '#/locales/src';
 
 import NumberFieldItem from '../number-field-item.vue';
 import SelectItem from '../select-item.vue';

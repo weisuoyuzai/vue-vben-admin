@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 import { computed, useSlots } from 'vue';
 
-import { useRefresh } from '@vben/hooks';
-import { RotateCw } from '@vben/icons';
-import { preferences, usePreferences } from '@vben/preferences';
-import { useAccessStore } from '@vben/stores';
+import { useRefresh } from '#/effects/hooks/src';
+import { RotateCw } from '#/icons/src';
+import { preferences, usePreferences } from '#/preferences/src';
+import { useAccessStore } from '#/stores/src';
 
-import { VbenFullScreen, VbenIconButton } from '@vben-core/shadcn-ui';
+import { VbenFullScreen, VbenIconButton } from '#/@core/shadcn-ui';
 
 import {
   GlobalSearch,

@@ -11,8 +11,8 @@ export * from './page';
 export * from './resize';
 export * from './tippy';
 export * from './tree';
-export * from '@vben-core/form-ui';
-export * from '@vben-core/popup-ui';
+export * from '#/@core/form-ui';
+export * from '#/@core/popup-ui';
 
 // 给文档用
 export {
@@ -30,7 +30,7 @@ export {
   VbenPinInput,
   VbenSelect,
   VbenSpinner,
-} from '@vben-core/shadcn-ui';
+} from '#/@core/shadcn-ui';
 
-export type { FlattenedItem } from '@vben-core/shadcn-ui';
-export { globalShareState } from '@vben-core/shared/global-state';
+export type { FlattenedItem } from '#/@core/shadcn-ui';
+export { globalShareState } from '#/@core/shared/global-state';

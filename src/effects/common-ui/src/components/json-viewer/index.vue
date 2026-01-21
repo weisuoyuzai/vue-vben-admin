@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { SetupContext } from 'vue';
 
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '#/types/src';
 
 import type {
   JsonViewerAction,
@@ -14,9 +14,9 @@ import { computed, useAttrs } from 'vue';
 // @ts-ignore
 import VueJsonViewer from 'vue-json-viewer';
 
-import { $t } from '@vben/locales';
+import { $t } from '#/locales/src';
 
-import { isBoolean } from '@vben-core/shared/utils';
+import { isBoolean } from '#/@core/shared/utils';
 
 // @ts-ignore
 import JsonBigint from 'json-bigint';

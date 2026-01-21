@@ -5,16 +5,16 @@ import type {
   RouteRecordNormalized,
 } from 'vue-router';
 
-import type { TabDefinition } from '@vben-core/typings';
+import type { TabDefinition } from '#/@core/typings';
 
 import { toRaw } from 'vue';
 
-import { preferences } from '@vben-core/preferences';
+import { preferences } from '#/@core/preferences';
 import {
   openRouteInNewWindow,
   startProgress,
   stopProgress,
-} from '@vben-core/shared/utils';
+} from '#/@core/shared/utils';
 
 import { acceptHMRUpdate, defineStore } from 'pinia';
 

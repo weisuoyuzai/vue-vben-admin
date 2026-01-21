@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { AuthenticationQrCodeLogin } from '@vben/common-ui';
-import { LOGIN_PATH } from '@vben/constants';
+import { AuthenticationQrCodeLogin } from '#/effects/common-ui/src';
+import { LOGIN_PATH } from '#/constants/src';
 
 defineOptions({ name: 'QrCodeLogin' });
 </script>

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { BuiltinThemePreset } from '@vben/preferences';
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemePreset } from '#/preferences/src';
+import type { BuiltinThemeType } from '#/types/src';
 
 import { computed, ref, watch } from 'vue';
 
-import { UserRoundPen } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { BUILT_IN_THEME_PRESETS } from '@vben/preferences';
-import { convertToHsl, TinyColor } from '@vben/utils';
+import { UserRoundPen } from '#/icons/src';
+import { $t } from '#/locales/src';
+import { BUILT_IN_THEME_PRESETS } from '#/preferences/src';
+import { convertToHsl, TinyColor } from '#/utils/src';
 
 import { useThrottleFn } from '@vueuse/core';
 

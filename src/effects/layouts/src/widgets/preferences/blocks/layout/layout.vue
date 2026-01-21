@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import type { Component } from 'vue';
 
-import type { LayoutType } from '@vben/types';
+import type { LayoutType } from '#/types/src';
 
 import { computed } from 'vue';
 
-import { CircleHelp } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { CircleHelp } from '#/icons/src';
+import { $t } from '#/locales/src';
 
-import { VbenTooltip } from '@vben-core/shadcn-ui';
+import { VbenTooltip } from '#/@core/shadcn-ui';
 
 import {
   FullContent,

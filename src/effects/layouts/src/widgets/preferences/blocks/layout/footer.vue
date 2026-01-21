@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { $t } from '@vben/locales';
+import { $t } from '#/locales/src';
 
 import SwitchItem from '../switch-item.vue';
 

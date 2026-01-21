@@ -1,12 +1,12 @@
 import type {
   VbenFormSchema as FormSchema,
   VbenFormProps,
-} from '@vben/common-ui';
+} from '#/effects/common-ui/src';
 
 import type { ComponentType } from './component';
 
-import { setupVbenForm, useVbenForm as useForm, z } from '@vben/common-ui';
-import { $t } from '@vben/locales';
+import { setupVbenForm, useVbenForm as useForm, z } from '#/effects/common-ui/src';
+import { $t } from '#/locales/src';
 
 async function initSetupVbenForm() {
   setupVbenForm<ComponentType>({

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '#/types/src';
 
 import { nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 
@@ -9,11 +9,11 @@ import {
   CornerDownLeft,
   MdiKeyboardEsc,
   Search,
-} from '@vben/icons';
-import { $t } from '@vben/locales';
-import { isWindowsOs } from '@vben/utils';
+} from '#/icons/src';
+import { $t } from '#/locales/src';
+import { isWindowsOs } from '#/utils/src';
 
-import { useVbenModal } from '@vben-core/popup-ui';
+import { useVbenModal } from '#/@core/popup-ui';
 
 import { useMagicKeys, whenever } from '@vueuse/core';
 

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { SelectOption } from '@vben/types';
+import type { SelectOption } from '#/types/src';
 
 import { useSlots } from 'vue';
 
-import { CircleHelp } from '@vben/icons';
+import { CircleHelp } from '#/icons/src';
 
-import { VbenCheckButtonGroup, VbenTooltip } from '@vben-core/shadcn-ui';
+import { VbenCheckButtonGroup, VbenTooltip } from '#/@core/shadcn-ui';
 
 defineOptions({
   name: 'PreferenceCheckboxItem',

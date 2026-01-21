@@ -1,4 +1,4 @@
-import type { BasicUserInfo } from '@vben/types';
+import type { BasicUserInfo } from '#/types/src';
 
 export interface Props {
   title?: string;

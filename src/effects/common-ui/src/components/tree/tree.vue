@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { TreeProps } from '@vben-core/shadcn-ui';
+import type { TreeProps } from '#/@core/shadcn-ui';
 
-import { Inbox } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { Inbox } from '#/icons/src';
+import { $t } from '#/locales/src';
 
-import { treePropsDefaults, VbenTree } from '@vben-core/shadcn-ui';
+import { treePropsDefaults, VbenTree } from '#/@core/shadcn-ui';
 
 const props = withDefaults(defineProps<TreeProps>(), treePropsDefaults());
 </script>
