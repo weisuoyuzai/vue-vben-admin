@@ -144,7 +144,7 @@
   }
 
   .vben-link {
-    @apply text-primary hover:text-primary-hover active:text-primary-active cursor-pointer;
+    @apply text-primary hover:text-primary/80 active:text-primary/90 cursor-pointer;
   }
 
   .card-box {
