@@ -1,6 +1,6 @@
 import type { VxeGridInstance } from 'vxe-table';
 
-import type { ExtendedFormApi } from '#/@core/form-ui';
+import type { ExtendedFormApi } from '#/@core/ui-kit/form-ui/src';
 
 import type { VxeGridProps } from './types';
 

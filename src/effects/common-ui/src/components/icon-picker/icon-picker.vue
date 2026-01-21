@@ -21,7 +21,7 @@ import {
   VbenIcon,
   VbenIconButton,
   VbenPopover,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { isFunction } from '#/@core/base/shared/src/utils';
 
 import { objectOmit, refDebounced, watchDebounced } from '@vueuse/core';

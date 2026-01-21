@@ -12,7 +12,7 @@ import type {
   ThemeModeType,
 } from '#/types/src';
 
-import type { SegmentedItem } from '#/@core/shadcn-ui';
+import type { SegmentedItem } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { computed, ref } from 'vue';
 
@@ -25,12 +25,12 @@ import {
   usePreferences,
 } from '#/preferences/src';
 
-import { useVbenDrawer } from '#/@core/popup-ui';
+import { useVbenDrawer } from '#/@core/ui-kit/popup-ui/src';
 import {
   VbenButton,
   VbenIconButton,
   VbenSegmented,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { globalShareState } from '#/@core/base/shared/src/global-state';
 
 import { useClipboard } from '@vueuse/core';

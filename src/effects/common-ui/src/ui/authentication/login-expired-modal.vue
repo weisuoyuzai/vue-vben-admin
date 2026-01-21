@@ -5,8 +5,8 @@ import { computed, watch } from 'vue';
 
 import { $t } from '#/locales/src';
 
-import { useVbenModal } from '#/@core/popup-ui';
-import { Slot, VbenAvatar } from '#/@core/shadcn-ui';
+import { useVbenModal } from '#/@core/ui-kit/popup-ui/src';
+import { Slot, VbenAvatar } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props extends AuthenticationProps {
   avatar?: string;

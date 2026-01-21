@@ -2,7 +2,7 @@ import type { App, Directive, DirectiveBinding } from 'vue';
 
 import { h, render } from 'vue';
 
-import { VbenLoading, VbenSpinner } from '#/@core/shadcn-ui';
+import { VbenLoading, VbenSpinner } from '#/@core/ui-kit/shadcn-ui/src';
 import { isString } from '#/@core/base/shared/src/utils';
 
 const LOADING_INSTANCE_KEY = Symbol('loading');

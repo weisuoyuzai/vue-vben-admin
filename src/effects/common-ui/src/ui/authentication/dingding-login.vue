@@ -4,8 +4,8 @@ import { useRoute } from 'vue-router';
 import { SvgDingDingIcon } from '#/icons/src';
 import { $t } from '#/locales/src';
 
-import { alert, useVbenModal } from '#/@core/popup-ui';
-import { VbenIconButton } from '#/@core/shadcn-ui';
+import { alert, useVbenModal } from '#/@core/ui-kit/popup-ui/src';
+import { VbenIconButton } from '#/@core/ui-kit/shadcn-ui/src';
 import { loadScript } from '#/@core/base/shared/src/utils';
 
 interface Props {

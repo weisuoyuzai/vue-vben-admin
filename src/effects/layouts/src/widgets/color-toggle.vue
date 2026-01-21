@@ -8,7 +8,7 @@ import {
   updatePreferences,
 } from '#/preferences/src';
 
-import { VbenIconButton } from '#/@core/shadcn-ui';
+import { VbenIconButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'AuthenticationColorToggle',

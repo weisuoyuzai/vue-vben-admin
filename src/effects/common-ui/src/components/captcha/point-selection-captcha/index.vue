@@ -4,7 +4,7 @@ import type { CaptchaPoint, PointSelectionCaptchaProps } from '../types';
 import { RotateCw } from '#/icons/src';
 import { $t } from '#/locales/src';
 
-import { VbenButton, VbenIconButton } from '#/@core/shadcn-ui';
+import { VbenButton, VbenIconButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { useCaptchaPoints } from '../hooks/useCaptchaPoints';
 import CaptchaCard from './point-selection-captcha-card.vue';

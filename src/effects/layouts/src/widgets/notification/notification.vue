@@ -11,7 +11,7 @@ import {
   VbenIconButton,
   VbenPopover,
   VbenScrollbar,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 import { useToggle } from '@vueuse/core';
 

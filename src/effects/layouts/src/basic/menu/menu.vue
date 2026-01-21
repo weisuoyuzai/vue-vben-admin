@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 import type { MenuRecordRaw } from '#/types/src';
 
-import type { MenuProps } from '#/@core/menu-ui';
+import type { MenuProps } from '#/@core/ui-kit/menu-ui/src';
 
-import { Menu } from '#/@core/menu-ui';
+import { Menu } from '#/@core/ui-kit/menu-ui/src';
 
 interface Props extends MenuProps {
   menus?: MenuRecordRaw[];

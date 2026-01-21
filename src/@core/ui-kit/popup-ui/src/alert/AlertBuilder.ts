@@ -6,8 +6,8 @@ import type { AlertProps, BeforeCloseScope, PromptProps } from './alert';
 
 import { h, nextTick, ref, render } from 'vue';
 
-import { useSimpleLocale } from '#/@core/composables';
-import { Input, VbenRenderContent } from '#/@core/shadcn-ui';
+import { useSimpleLocale } from '#/@core/composables/src';
+import { Input, VbenRenderContent } from '#/@core/ui-kit/shadcn-ui/src';
 import { isFunction, isString } from '#/@core/base/shared/src/utils';
 
 import Alert from './alert.vue';

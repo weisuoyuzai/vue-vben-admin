@@ -11,7 +11,7 @@ import {
   FormItem,
   FormLabel,
   Switch,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 withDefaults(defineProps<SettingProps>(), {
   formSchema: () => [],

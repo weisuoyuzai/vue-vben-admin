@@ -9,7 +9,7 @@ import {
   TabsList,
   TabsTrigger,
   VbenAvatar,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 import { Page } from '../../components';
 

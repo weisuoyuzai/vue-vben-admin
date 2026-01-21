@@ -3,7 +3,7 @@ import { onMounted, onUnmounted, ref } from 'vue';
 
 import { $t } from '#/locales/src';
 
-import { useVbenModal } from '#/@core/popup-ui';
+import { useVbenModal } from '#/@core/ui-kit/popup-ui/src';
 
 interface Props {
   // 轮询时间，分钟

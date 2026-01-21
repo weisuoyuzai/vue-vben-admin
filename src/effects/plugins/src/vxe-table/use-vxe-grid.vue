@@ -10,7 +10,7 @@ import type {
 
 import type { SetupContext } from 'vue';
 
-import type { VbenFormProps } from '#/@core/form-ui';
+import type { VbenFormProps } from '#/@core/ui-kit/form-ui/src';
 
 import type { ExtendedVxeGridApi, VxeGridProps } from './types';
 
@@ -37,7 +37,7 @@ import {
   mergeWithArrayOverride,
 } from '#/utils/src';
 
-import { VbenHelpTooltip, VbenLoading } from '#/@core/shadcn-ui';
+import { VbenHelpTooltip, VbenLoading } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { VxeButton } from 'vxe-pc-ui';
 import { VxeGrid, VxeUI } from 'vxe-table';

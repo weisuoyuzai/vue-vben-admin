@@ -9,7 +9,7 @@ import {
   VBEN_PREVIEW_URL,
 } from '#/constants/src';
 
-import { VbenRenderContent } from '#/@core/shadcn-ui';
+import { VbenRenderContent } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { Page } from '../../components';
 

@@ -6,8 +6,8 @@ import { $t, loadLocaleMessages } from '#/locales/src';
 import { preferences, updatePreferences } from '#/preferences/src';
 import { capitalizeFirstLetter } from '#/utils/src';
 
-import { useVbenDrawer } from '#/@core/popup-ui';
-import { VbenButton } from '#/@core/shadcn-ui';
+import { useVbenDrawer } from '#/@core/ui-kit/popup-ui/src';
+import { VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 import PreferencesDrawer from './preferences-drawer.vue';
 

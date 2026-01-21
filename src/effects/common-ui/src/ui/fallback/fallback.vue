@@ -7,7 +7,7 @@ import { useRouter } from 'vue-router';
 import { ArrowLeft, RotateCw } from '#/icons/src';
 import { $t } from '#/locales/src';
 
-import { VbenButton } from '#/@core/shadcn-ui';
+import { VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props extends FallbackProps {}
 

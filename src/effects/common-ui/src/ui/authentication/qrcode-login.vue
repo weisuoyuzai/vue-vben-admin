@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router';
 
 import { $t } from '#/locales/src';
 
-import { VbenButton } from '#/@core/shadcn-ui';
+import { VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { useQRCode } from '@vueuse/integrations/useQRCode';
 

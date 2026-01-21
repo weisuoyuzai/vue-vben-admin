@@ -5,7 +5,7 @@ import {
   FormLabel,
   VbenHelpTooltip,
   VbenRenderContent,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { cn } from '#/@core/base/shared/src/utils';
 
 interface Props {

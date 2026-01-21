@@ -3,7 +3,7 @@ import { useSlots } from 'vue';
 
 import { CircleHelp } from '#/icons/src';
 
-import { Switch, VbenTooltip } from '#/@core/shadcn-ui';
+import { Switch, VbenTooltip } from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'PreferenceSwitchItem',

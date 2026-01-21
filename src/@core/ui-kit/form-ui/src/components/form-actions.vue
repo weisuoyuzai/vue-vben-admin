@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, toRaw, unref, watch } from 'vue';
 
-import { useSimpleLocale } from '#/@core/composables';
-import { VbenExpandableArrow } from '#/@core/shadcn-ui';
+import { useSimpleLocale } from '#/@core/composables/src';
+import { VbenExpandableArrow } from '#/@core/ui-kit/shadcn-ui/src';
 import { cn, isFunction, triggerWindowResize } from '#/@core/base/shared/src/utils';
 
 import { COMPONENT_MAP } from '../config';

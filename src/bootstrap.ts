@@ -5,7 +5,7 @@ import { registerLoadingDirective } from '#/effects/common-ui/src/components/loa
 import { preferences } from '#/preferences/src';
 import { initStores } from '#/stores/src';
 import '#/styles/src';
-import '#/styles/src/antd';
+// import '#/styles/src/antd/index.css';
 
 import { useTitle } from '@vueuse/core';
 

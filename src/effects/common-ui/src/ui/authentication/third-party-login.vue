@@ -8,7 +8,7 @@ import {
 } from '#/icons/src';
 import { $t } from '#/locales/src';
 
-import { VbenIconButton } from '#/@core/shadcn-ui';
+import { VbenIconButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 import DingdingLogin from './dingding-login.vue';
 

@@ -5,9 +5,9 @@ import { computed, reactive } from 'vue';
 
 import { $t } from '#/locales/src';
 
-import { useVbenForm, z } from '#/@core/form-ui';
-import { useVbenModal } from '#/@core/popup-ui';
-import { VbenAvatar, VbenButton } from '#/@core/shadcn-ui';
+import { useVbenForm, z } from '#/@core/ui-kit/form-ui/src';
+import { useVbenModal } from '#/@core/ui-kit/popup-ui/src';
+import { VbenAvatar, VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props {
   avatar?: string;

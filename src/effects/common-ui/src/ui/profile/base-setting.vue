@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import type { Recordable } from '#/types/src';
 
-import type { VbenFormSchema } from '#/@core/form-ui';
+import type { VbenFormSchema } from '#/@core/ui-kit/form-ui/src';
 
 import { computed, reactive } from 'vue';
 
-import { useVbenForm } from '#/@core/form-ui';
-import { VbenButton } from '#/@core/shadcn-ui';
+import { useVbenForm } from '#/@core/ui-kit/form-ui/src';
+import { VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props {
   formSchema?: VbenFormSchema[];

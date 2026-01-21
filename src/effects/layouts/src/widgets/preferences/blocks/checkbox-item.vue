@@ -5,7 +5,7 @@ import { useSlots } from 'vue';
 
 import { CircleHelp } from '#/icons/src';
 
-import { VbenCheckButtonGroup, VbenTooltip } from '#/@core/shadcn-ui';
+import { VbenCheckButtonGroup, VbenTooltip } from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'PreferenceCheckboxItem',

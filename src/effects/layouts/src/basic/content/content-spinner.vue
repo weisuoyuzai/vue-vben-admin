@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { VbenSpinner } from '#/@core/shadcn-ui';
+import { VbenSpinner } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { useContentSpinner } from './use-content-spinner';
 

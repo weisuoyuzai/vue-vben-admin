@@ -9,7 +9,7 @@ import {
   NumberFieldDecrement,
   NumberFieldIncrement,
   NumberFieldInput,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'PreferenceFontSize',

@@ -6,7 +6,7 @@ import type { ExtendedFormApi, FormActions, VbenFormProps } from './types';
 
 import { computed, unref, useSlots } from 'vue';
 
-import { createContext } from '#/@core/shadcn-ui';
+import { createContext } from '#/@core/ui-kit/shadcn-ui/src';
 import { isString, mergeWithArrayOverride, set } from '#/@core/base/shared/src/utils';
 
 import { useForm } from 'vee-validate';

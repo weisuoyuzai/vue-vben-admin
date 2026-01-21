@@ -15,7 +15,7 @@ import {
   useIsMobile,
   usePriorityValues,
   useSimpleLocale,
-} from '#/@core/composables';
+} from '#/@core/composables/src';
 import { X } from '#/@core/base/icons/src';
 import {
   Separator,
@@ -31,7 +31,7 @@ import {
   VbenIconButton,
   VbenLoading,
   VisuallyHidden,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/base/shared/src/constants';
 import { globalShareState } from '#/@core/base/shared/src/global-state';
 import { cn } from '#/@core/base/shared/src/utils';

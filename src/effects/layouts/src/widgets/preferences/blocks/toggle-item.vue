@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { SelectOption } from '#/types/src';
 
-import { ToggleGroup, ToggleGroupItem } from '#/@core/shadcn-ui';
+import { ToggleGroup, ToggleGroupItem } from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'PreferenceToggleItem',

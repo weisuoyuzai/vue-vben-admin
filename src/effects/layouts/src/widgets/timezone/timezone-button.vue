@@ -5,12 +5,12 @@ import { createIconifyIcon } from '#/icons/src';
 import { $t } from '#/locales/src';
 import { useTimezoneStore } from '#/stores/src';
 
-import { useVbenModal } from '#/@core/popup-ui';
+import { useVbenModal } from '#/@core/ui-kit/popup-ui/src';
 import {
   RadioGroup,
   RadioGroupItem,
   VbenIconButton,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 const TimezoneIcon = createIconifyIcon('fluent-mdl2:world-clock');
 

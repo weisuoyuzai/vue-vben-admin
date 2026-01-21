@@ -11,7 +11,7 @@ import type {
 import { unref } from 'vue';
 import { createI18n } from 'vue-i18n';
 
-import { useSimpleLocale } from '#/@core/composables';
+import { useSimpleLocale } from '#/@core/composables/src';
 
 const i18n = createI18n({
   globalInjection: true,

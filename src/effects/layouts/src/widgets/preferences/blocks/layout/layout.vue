@@ -8,7 +8,7 @@ import { computed } from 'vue';
 import { CircleHelp } from '#/icons/src';
 import { $t } from '#/locales/src';
 
-import { VbenTooltip } from '#/@core/shadcn-ui';
+import { VbenTooltip } from '#/@core/ui-kit/shadcn-ui/src';
 
 import {
   FullContent,

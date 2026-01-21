@@ -6,7 +6,7 @@ import { useContentMaximize, useTabs } from '#/effects/hooks/src';
 import { preferences } from '#/preferences/src';
 import { useTabbarStore } from '#/stores/src';
 
-import { TabsToolMore, TabsToolScreen, TabsView } from '#/@core/tabs-ui';
+import { TabsToolMore, TabsToolScreen, TabsView } from '#/@core/ui-kit/tabs-ui/src';
 
 import { useTabbar } from './use-tabbar';
 

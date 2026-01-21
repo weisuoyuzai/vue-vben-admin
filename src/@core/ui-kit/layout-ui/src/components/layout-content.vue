@@ -5,8 +5,8 @@ import type { ContentCompactType } from '#/@core/base/typings/src';
 
 import { computed } from 'vue';
 
-import { useLayoutContentStyle } from '#/@core/composables';
-import { Slot } from '#/@core/shadcn-ui';
+import { useLayoutContentStyle } from '#/@core/composables/src';
+import { Slot } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props {
   /**

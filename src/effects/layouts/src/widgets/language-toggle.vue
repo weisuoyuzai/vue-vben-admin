@@ -6,7 +6,7 @@ import { Languages } from '#/icons/src';
 import { loadLocaleMessages } from '#/locales/src';
 import { preferences, updatePreferences } from '#/preferences/src';
 
-import { VbenDropdownRadioMenu, VbenIconButton } from '#/@core/shadcn-ui';
+import { VbenDropdownRadioMenu, VbenIconButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'LanguageToggle',

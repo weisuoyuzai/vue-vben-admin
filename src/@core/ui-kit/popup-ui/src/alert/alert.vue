@@ -5,7 +5,7 @@ import type { AlertProps } from './alert';
 
 import { computed, h, nextTick, ref } from 'vue';
 
-import { useSimpleLocale } from '#/@core/composables';
+import { useSimpleLocale } from '#/@core/composables/src';
 import {
   CircleAlert,
   CircleCheckBig,
@@ -24,7 +24,7 @@ import {
   VbenButton,
   VbenLoading,
   VbenRenderContent,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { globalShareState } from '#/@core/base/shared/src/global-state';
 import { cn } from '#/@core/base/shared/src/utils';
 

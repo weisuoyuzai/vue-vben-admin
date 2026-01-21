@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useScrollLock } from '#/@core/composables';
+import { useScrollLock } from '#/@core/composables/src';
 
 useScrollLock();
 </script>

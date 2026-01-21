@@ -9,11 +9,11 @@ import type { Ref } from 'vue';
 
 import type { ClassType, DeepPartial } from '#/types/src';
 
-import type { BaseFormComponentType, VbenFormProps } from '#/@core/form-ui';
+import type { BaseFormComponentType, VbenFormProps } from '#/@core/ui-kit/form-ui/src';
 
 import type { VxeGridApi } from './api';
 
-import { useVbenForm } from '#/@core/form-ui';
+import { useVbenForm } from '#/@core/ui-kit/form-ui/src';
 
 export interface VxePaginationInfo {
   currentPage: number;

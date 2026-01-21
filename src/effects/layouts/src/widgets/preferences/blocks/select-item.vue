@@ -12,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
   VbenTooltip,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 defineOptions({
   name: 'PreferenceSelectItem',

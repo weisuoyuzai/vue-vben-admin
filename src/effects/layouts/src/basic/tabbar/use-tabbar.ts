@@ -2,7 +2,7 @@ import type { RouteLocationNormalizedGeneric } from 'vue-router';
 
 import type { TabDefinition } from '#/types/src';
 
-import type { IContextMenuItem } from '#/@core/tabs-ui';
+import type { IContextMenuItem } from '#/@core/ui-kit/tabs-ui/src';
 
 import { computed, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';

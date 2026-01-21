@@ -13,7 +13,7 @@ import {
   ToggleGroup,
   ToggleGroupItem,
   VbenTooltip,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 import ThemeButton from './theme-button.vue';
 

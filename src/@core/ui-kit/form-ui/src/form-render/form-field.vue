@@ -14,7 +14,7 @@ import {
   FormMessage,
   VbenRenderContent,
   VbenTooltip,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 import { cn, isFunction, isObject, isString } from '#/@core/base/shared/src/utils';
 
 import { toTypedSchema } from '@vee-validate/zod';

@@ -3,8 +3,8 @@ import type { MenuRecordRaw } from '#/@core/base/typings/src';
 
 import type { NormalMenuProps } from './normal-menu';
 
-import { useNamespace } from '#/@core/composables';
-import { VbenIcon } from '#/@core/shadcn-ui';
+import { useNamespace } from '#/@core/composables/src';
+import { VbenIcon } from '#/@core/ui-kit/shadcn-ui/src';
 
 interface Props extends NormalMenuProps {}
 

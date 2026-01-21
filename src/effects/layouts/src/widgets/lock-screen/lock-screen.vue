@@ -5,9 +5,9 @@ import { LockKeyhole } from '#/icons/src';
 import { $t, useI18n } from '#/locales/src';
 import { storeToRefs, useAccessStore } from '#/stores/src';
 
-import { useScrollLock } from '#/@core/composables';
-import { useVbenForm, z } from '#/@core/form-ui';
-import { VbenAvatar, VbenButton } from '#/@core/shadcn-ui';
+import { useScrollLock } from '#/@core/composables/src';
+import { useVbenForm, z } from '#/@core/ui-kit/form-ui/src';
+import { VbenAvatar, VbenButton } from '#/@core/ui-kit/shadcn-ui/src';
 
 import { useDateFormat, useNow } from '@vueuse/core';
 

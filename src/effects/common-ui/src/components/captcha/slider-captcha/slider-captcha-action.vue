@@ -5,7 +5,7 @@ import { computed, ref, useTemplateRef } from 'vue';
 
 import { Check, ChevronsRight } from '#/icons/src';
 
-import { Slot } from '#/@core/shadcn-ui';
+import { Slot } from '#/@core/ui-kit/shadcn-ui/src';
 
 const props = defineProps<{
   actionStyle: CSSProperties;

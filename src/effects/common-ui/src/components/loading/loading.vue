@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { VbenLoading } from '#/@core/shadcn-ui';
+import { VbenLoading } from '#/@core/ui-kit/shadcn-ui/src';
 import { cn } from '#/@core/base/shared/src/utils';
 
 interface LoadingProps {

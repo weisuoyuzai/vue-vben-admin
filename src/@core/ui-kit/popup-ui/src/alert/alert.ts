@@ -2,7 +2,7 @@ import type { Component, VNode, VNodeArrayChildren } from 'vue';
 
 import type { Recordable } from '#/@core/base/typings/src';
 
-import { createContext } from '#/@core/shadcn-ui';
+import { createContext } from '#/@core/ui-kit/shadcn-ui/src';
 
 export type IconType = 'error' | 'info' | 'question' | 'success' | 'warning';
 

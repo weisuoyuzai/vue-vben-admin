@@ -11,7 +11,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '#/@core/shadcn-ui';
+} from '#/@core/ui-kit/shadcn-ui/src';
 
 const props = withDefaults(defineProps<PointSelectionCaptchaCardProps>(), {
   height: '220px',
