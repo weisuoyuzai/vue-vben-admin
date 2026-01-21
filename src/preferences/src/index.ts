@@ -1,4 +1,4 @@
-import type { Preferences } from '#/@core/preferences';
+import type { Preferences } from '#/@core/preferences/src';
 import type { DeepPartial } from '#/@core/base/typings/src';
 
 /**
@@ -14,4 +14,4 @@ function defineOverridesPreferences(preferences: DeepPartial<Preferences>) {
 
 export { defineOverridesPreferences };
 
-export * from '#/@core/preferences';
+export * from '#/@core/preferences/src';

@@ -1,7 +1,7 @@
 import { createApp, watchEffect } from 'vue';
 
 import { registerAccessDirective } from '#/effects/access/src';
-import { registerLoadingDirective } from '#/effects/common-ui/src/es/loading';
+import { registerLoadingDirective } from '#/effects/common-ui/src/components/loading';
 import { preferences } from '#/preferences/src';
 import { initStores } from '#/stores/src';
 import '#/styles/src';
@@ -49,16 +49,16 @@ async function bootstrap(namespace: string) {
   // 安装权限指令
   registerAccessDirective(app);
 
-  // 初始化 tippy
-  const { initTippy } = await import('#/effects/common-ui/src/es/tippy');
-  initTippy(app);
+  // // 初始化 tippy
+  // const { initTippy } = await import('#/effects/common-ui/src/ui/tippy');
+  // initTippy(app);
 
   // 配置路由及路由守卫
   app.use(router);
 
-  // 配置Motion插件
-  const { MotionPlugin } = await import('#/effects/plugins/src/motion');
-  app.use(MotionPlugin);
+  // // 配置Motion插件
+  // const { MotionPlugin } = await import('#/effects/plugins/src/motion');
+  // app.use(MotionPlugin);
 
   // 动态更新标题
   watchEffect(() => {
