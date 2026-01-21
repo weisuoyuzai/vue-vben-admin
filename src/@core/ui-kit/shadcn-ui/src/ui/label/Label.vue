@@ -3,7 +3,7 @@ import type { LabelProps } from 'reka-ui';
 
 import { computed } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { Label } from 'reka-ui';
 

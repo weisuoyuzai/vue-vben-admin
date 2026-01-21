@@ -6,7 +6,7 @@ import type { toggleVariants } from '../toggle';
 
 import { computed, provide } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { ToggleGroupRoot, useForwardPropsEmits } from 'reka-ui';
 

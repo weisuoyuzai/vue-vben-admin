@@ -5,7 +5,7 @@ import { computed, getCurrentInstance, unref, useAttrs, useSlots } from 'vue';
 import {
   getFirstNonNullOrUndefined,
   kebabToCamelCase,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 /**
  * 依次从插槽、attrs、props、state 中获取值

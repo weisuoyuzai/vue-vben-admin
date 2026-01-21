@@ -5,7 +5,7 @@ import type { SheetVariants } from './sheet';
 
 import { computed, ref } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { DialogContent, useForwardPropsEmits } from 'reka-ui';
 

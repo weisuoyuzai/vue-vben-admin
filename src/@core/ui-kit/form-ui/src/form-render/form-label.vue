@@ -6,7 +6,7 @@ import {
   VbenHelpTooltip,
   VbenRenderContent,
 } from '#/@core/shadcn-ui';
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 interface Props {
   class?: string;

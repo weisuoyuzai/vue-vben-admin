@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-imports */
-import type { RouteMeta as IRouteMeta } from '#/@core/typings';
+import type { RouteMeta as IRouteMeta } from '#/@core/base/typings/src';
 
 import 'vue-router';
 

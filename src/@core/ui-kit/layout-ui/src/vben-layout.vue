@@ -10,9 +10,9 @@ import {
   useLayoutFooterStyle,
   useLayoutHeaderStyle,
 } from '#/@core/composables';
-import { IconifyIcon } from '#/@core/icons';
+import { IconifyIcon } from '#/@core/base/icons/src';
 import { VbenIconButton } from '#/@core/shadcn-ui';
-import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/shared/constants';
+import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/base/shared/src/constants';
 
 import { useMouse, useScroll, useThrottleFn } from '@vueuse/core';
 

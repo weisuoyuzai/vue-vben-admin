@@ -3,7 +3,7 @@ import type { SwitchRootEmits, SwitchRootProps } from 'reka-ui';
 
 import { computed } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { SwitchRoot, SwitchThumb, useForwardPropsEmits } from 'reka-ui';
 

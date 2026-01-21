@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { AlertDialogContentEmits, AlertDialogContentProps } from 'reka-ui';
 
-import type { ClassType } from '#/@core/typings';
+import type { ClassType } from '#/@core/base/typings/src';
 
 import { computed, ref } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import {
   AlertDialogContent,

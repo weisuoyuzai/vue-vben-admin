@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { AvatarVariants } from './avatar';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { AvatarRoot } from 'reka-ui';
 

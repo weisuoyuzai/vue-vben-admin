@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Pin, PinOff } from '#/@core/icons';
+import { Pin, PinOff } from '#/@core/base/icons/src';
 
 const expandOnHover = defineModel<boolean>('expandOnHover');
 

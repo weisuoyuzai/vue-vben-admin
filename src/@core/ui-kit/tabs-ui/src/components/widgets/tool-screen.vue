@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Fullscreen, Minimize2 } from '#/@core/icons';
+import { Fullscreen, Minimize2 } from '#/@core/base/icons/src';
 
 const screen = defineModel<boolean>('screen');
 

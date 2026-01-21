@@ -2,14 +2,14 @@
 import type { Arrayable } from '@vueuse/core';
 import type { FlattenedItem } from 'reka-ui';
 
-import type { ClassType, Recordable } from '#/@core/typings';
+import type { ClassType, Recordable } from '#/@core/base/typings/src';
 
 import type { TreeProps } from './types';
 
 import { onMounted, ref, watchEffect } from 'vue';
 
-import { ChevronRight, IconifyIcon } from '#/@core/icons';
-import { cn, get } from '#/@core/shared/utils';
+import { ChevronRight, IconifyIcon } from '#/@core/base/icons/src';
+import { cn, get } from '#/@core/base/shared/src/utils';
 
 import { TreeItem, TreeRoot } from 'reka-ui';
 

@@ -31,7 +31,7 @@ import {
   VbenIconButton,
   VbenSegmented,
 } from '#/@core/shadcn-ui';
-import { globalShareState } from '#/@core/shared/global-state';
+import { globalShareState } from '#/@core/base/shared/src/global-state';
 
 import { useClipboard } from '@vueuse/core';
 

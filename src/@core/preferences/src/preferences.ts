@@ -1,11 +1,11 @@
-import type { DeepPartial } from '#/@core/typings';
+import type { DeepPartial } from '#/@core/base/typings/src';
 
 import type { InitialOptions, Preferences } from './types';
 
 import { markRaw, reactive, readonly, watch } from 'vue';
 
-import { StorageManager } from '#/@core/shared/cache';
-import { isMacOs, merge } from '#/@core/shared/utils';
+import { StorageManager } from '#/@core/base/shared/src/cache';
+import { isMacOs, merge } from '#/@core/base/shared/src/utils';
 
 import {
   breakpointsTailwind,

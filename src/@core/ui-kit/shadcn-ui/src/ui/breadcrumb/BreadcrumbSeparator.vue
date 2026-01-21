@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { ChevronRight } from 'lucide-vue-next';
 

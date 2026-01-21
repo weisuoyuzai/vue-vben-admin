@@ -1,4 +1,4 @@
-import type { BuiltinThemeType, TimezoneOption } from '#/@core/typings';
+import type { BuiltinThemeType, TimezoneOption } from '#/@core/base/typings/src';
 
 interface BuiltinThemePreset {
   color: string;

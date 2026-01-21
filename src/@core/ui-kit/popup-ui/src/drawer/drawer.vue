@@ -16,7 +16,7 @@ import {
   usePriorityValues,
   useSimpleLocale,
 } from '#/@core/composables';
-import { X } from '#/@core/icons';
+import { X } from '#/@core/base/icons/src';
 import {
   Separator,
   Sheet,
@@ -32,9 +32,9 @@ import {
   VbenLoading,
   VisuallyHidden,
 } from '#/@core/shadcn-ui';
-import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/shared/constants';
-import { globalShareState } from '#/@core/shared/global-state';
-import { cn } from '#/@core/shared/utils';
+import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/base/shared/src/constants';
+import { globalShareState } from '#/@core/base/shared/src/global-state';
+import { cn } from '#/@core/base/shared/src/utils';
 
 interface Props extends DrawerProps {
   drawerApi?: ExtendedDrawerApi;

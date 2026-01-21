@@ -9,7 +9,7 @@ import { $t } from '#/locales/src';
 import { mapTree, traverseTreeValues, uniqueByField } from '#/utils/src';
 
 import { VbenIcon, VbenScrollbar } from '#/@core/shadcn-ui';
-import { isHttpUrl } from '#/@core/shared/utils';
+import { isHttpUrl } from '#/@core/base/shared/src/utils';
 
 import { onKeyStroke, useLocalStorage, useThrottleFn } from '@vueuse/core';
 

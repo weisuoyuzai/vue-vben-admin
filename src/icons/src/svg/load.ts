@@ -1,6 +1,6 @@
-import type { IconifyIconStructure } from '#/@core/icons';
+import type { IconifyIconStructure } from '#/@core/base/icons/src';
 
-import { addIcon } from '#/@core/icons';
+import { addIcon } from '#/@core/base/icons/src';
 
 let loaded = false;
 if (!loaded) {

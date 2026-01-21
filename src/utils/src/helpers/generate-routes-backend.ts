@@ -4,9 +4,9 @@ import type {
   ComponentRecordType,
   GenerateMenuAndRoutesOptions,
   RouteRecordStringComponent,
-} from '#/@core/typings';
+} from '#/@core/base/typings/src';
 
-import { mapTree } from '#/@core/shared/utils';
+import { mapTree } from '#/@core/base/shared/src/utils';
 
 /**
  * 动态生成路由 - 后端方式

@@ -3,7 +3,7 @@ import type { PaginationPrevProps } from 'reka-ui';
 
 import { computed } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { ChevronLeft } from 'lucide-vue-next';
 import { PaginationPrev } from 'reka-ui';

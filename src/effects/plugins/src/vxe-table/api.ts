@@ -6,14 +6,14 @@ import type { VxeGridProps } from './types';
 
 import { toRaw } from 'vue';
 
-import { Store } from '#/@core/shared/store';
+import { Store } from '#/@core/base/shared/src/store';
 import {
   bindMethods,
   isBoolean,
   isFunction,
   mergeWithArrayOverride,
   StateHandler,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 function getDefaultState(): VxeGridProps {
   return {

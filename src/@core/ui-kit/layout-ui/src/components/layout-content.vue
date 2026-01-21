@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue';
 
-import type { ContentCompactType } from '#/@core/typings';
+import type { ContentCompactType } from '#/@core/base/typings/src';
 
 import { computed } from 'vue';
 

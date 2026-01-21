@@ -17,7 +17,7 @@ import {
   isFunction,
   isString,
   mergeWithArrayOverride,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 import { provideFormRenderProps } from './context';
 import { useExpandable } from './expandable';

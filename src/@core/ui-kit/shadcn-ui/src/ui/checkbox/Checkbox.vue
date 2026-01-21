@@ -3,7 +3,7 @@ import type { CheckboxRootEmits, CheckboxRootProps } from 'reka-ui';
 
 import { computed } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { Check, Minus } from 'lucide-vue-next';
 import { CheckboxIndicator, CheckboxRoot, useForwardPropsEmits } from 'reka-ui';

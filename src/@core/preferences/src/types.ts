@@ -14,7 +14,7 @@ import type {
   PreferencesButtonPositionType,
   TabsStyleType,
   ThemeModeType,
-} from '#/@core/typings';
+} from '#/@core/base/typings/src';
 
 type SupportedLanguagesType = 'en-US' | 'zh-CN';
 

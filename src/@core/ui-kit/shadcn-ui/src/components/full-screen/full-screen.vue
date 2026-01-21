@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Maximize, Minimize } from '#/@core/icons';
+import { Maximize, Minimize } from '#/@core/base/icons/src';
 
 import { useFullscreen } from '@vueuse/core';
 

@@ -8,8 +8,8 @@ import type { HTMLAttributes } from 'vue';
 
 import { computed } from 'vue';
 
-import { GripVertical } from '#/@core/icons';
-import { cn } from '#/@core/shared/utils';
+import { GripVertical } from '#/@core/base/icons/src';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { SplitterResizeHandle, useForwardPropsEmits } from 'reka-ui';
 

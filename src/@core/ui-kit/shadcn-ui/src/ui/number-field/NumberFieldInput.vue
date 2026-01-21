@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { NumberFieldInput } from 'reka-ui';
 </script>

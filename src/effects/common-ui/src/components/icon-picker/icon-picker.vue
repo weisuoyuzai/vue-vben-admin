@@ -22,7 +22,7 @@ import {
   VbenIconButton,
   VbenPopover,
 } from '#/@core/shadcn-ui';
-import { isFunction } from '#/@core/shared/utils';
+import { isFunction } from '#/@core/base/shared/src/utils';
 
 import { objectOmit, refDebounced, watchDebounced } from '@vueuse/core';
 

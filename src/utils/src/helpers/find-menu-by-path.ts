@@ -1,4 +1,4 @@
-import type { MenuRecordRaw } from '#/@core/typings';
+import type { MenuRecordRaw } from '#/@core/base/typings/src';
 
 function findMenuByPath(
   list: MenuRecordRaw[],

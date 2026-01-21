@@ -3,7 +3,7 @@ import { computed, toRaw, unref, watch } from 'vue';
 
 import { useSimpleLocale } from '#/@core/composables';
 import { VbenExpandableArrow } from '#/@core/shadcn-ui';
-import { cn, isFunction, triggerWindowResize } from '#/@core/shared/utils';
+import { cn, isFunction, triggerWindowResize } from '#/@core/base/shared/src/utils';
 
 import { COMPONENT_MAP } from '../config';
 import { injectFormProps } from '../use-form-context';

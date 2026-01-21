@@ -4,7 +4,7 @@ import type { MenuItemProps } from '../types';
 import { computed } from 'vue';
 
 import { useNamespace } from '#/@core/composables';
-import { ChevronDown, ChevronRight } from '#/@core/icons';
+import { ChevronDown, ChevronRight } from '#/@core/base/icons/src';
 import { VbenIcon } from '#/@core/shadcn-ui';
 
 import { useMenuContext } from '../hooks';

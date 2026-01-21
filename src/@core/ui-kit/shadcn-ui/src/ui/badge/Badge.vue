@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { BadgeVariants } from './badge';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { badgeVariants } from './badge';
 

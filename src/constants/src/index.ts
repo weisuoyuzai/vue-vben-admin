@@ -1,2 +1,2 @@
 export * from './core';
-export * from '#/@core/shared/constants';
+export * from '#/@core/base/shared/src/constants';

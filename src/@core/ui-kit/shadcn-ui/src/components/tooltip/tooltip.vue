@@ -3,7 +3,7 @@ import type { TooltipContentProps } from 'reka-ui';
 
 import type { StyleValue } from 'vue';
 
-import type { ClassType } from '#/@core/typings';
+import type { ClassType } from '#/@core/base/typings/src';
 
 import {
   Tooltip,

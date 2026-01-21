@@ -17,7 +17,7 @@ import {
   usePriorityValues,
   useSimpleLocale,
 } from '#/@core/composables';
-import { Expand, Shrink } from '#/@core/icons';
+import { Expand, Shrink } from '#/@core/base/icons/src';
 import {
   Dialog,
   DialogContent,
@@ -31,9 +31,9 @@ import {
   VbenLoading,
   VisuallyHidden,
 } from '#/@core/shadcn-ui';
-import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/shared/constants';
-import { globalShareState } from '#/@core/shared/global-state';
-import { cn } from '#/@core/shared/utils';
+import { ELEMENT_ID_MAIN_CONTENT } from '#/@core/base/shared/src/constants';
+import { globalShareState } from '#/@core/base/shared/src/global-state';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { useModalDraggable } from './use-modal-draggable';
 

@@ -1,6 +1,6 @@
 import type { Component, VNode, VNodeArrayChildren } from 'vue';
 
-import type { Recordable } from '#/@core/typings';
+import type { Recordable } from '#/@core/base/typings/src';
 
 import { createContext } from '#/@core/shadcn-ui';
 

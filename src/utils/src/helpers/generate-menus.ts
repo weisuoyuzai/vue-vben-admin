@@ -4,9 +4,9 @@ import type {
   ExRouteRecordRaw,
   MenuRecordRaw,
   RouteMeta,
-} from '#/@core/typings';
+} from '#/@core/base/typings/src';
 
-import { filterTree, mapTree, sortTree } from '#/@core/shared/utils';
+import { filterTree, mapTree, sortTree } from '#/@core/base/shared/src/utils';
 
 /**
  * 根据 routes 生成菜单列表

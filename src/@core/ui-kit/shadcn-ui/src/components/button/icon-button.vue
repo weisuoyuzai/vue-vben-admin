@@ -4,7 +4,7 @@ import type { VbenButtonProps } from './button';
 
 import { computed, useSlots } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { VbenTooltip } from '../tooltip';
 import VbenButton from './button.vue';

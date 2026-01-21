@@ -6,7 +6,7 @@ import { $t } from '#/locales/src';
 
 import { alert, useVbenModal } from '#/@core/popup-ui';
 import { VbenIconButton } from '#/@core/shadcn-ui';
-import { loadScript } from '#/@core/shared/utils';
+import { loadScript } from '#/@core/base/shared/src/utils';
 
 interface Props {
   clientId: string;

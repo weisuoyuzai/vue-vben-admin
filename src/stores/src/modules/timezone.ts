@@ -4,7 +4,7 @@ import { DEFAULT_TIME_ZONE_OPTIONS } from '#/@core/preferences';
 import {
   getCurrentTimezone,
   setCurrentTimezone,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 import { acceptHMRUpdate, defineStore } from 'pinia';
 

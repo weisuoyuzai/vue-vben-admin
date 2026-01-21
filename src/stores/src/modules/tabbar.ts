@@ -5,7 +5,7 @@ import type {
   RouteRecordNormalized,
 } from 'vue-router';
 
-import type { TabDefinition } from '#/@core/typings';
+import type { TabDefinition } from '#/@core/base/typings/src';
 
 import { toRaw } from 'vue';
 
@@ -14,7 +14,7 @@ import {
   openRouteInNewWindow,
   startProgress,
   stopProgress,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 import { acceptHMRUpdate, defineStore } from 'pinia';
 

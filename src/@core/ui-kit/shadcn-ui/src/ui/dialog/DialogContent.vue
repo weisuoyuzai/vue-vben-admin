@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { DialogContentEmits, DialogContentProps } from 'reka-ui';
 
-import type { ClassType } from '#/@core/typings';
+import type { ClassType } from '#/@core/base/typings/src';
 
 import { computed, ref } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { X } from 'lucide-vue-next';
 import { DialogClose, DialogContent, useForwardPropsEmits } from 'reka-ui';

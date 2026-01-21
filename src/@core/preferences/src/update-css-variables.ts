@@ -1,7 +1,7 @@
 import type { Preferences } from './types';
 
-import { generatorColorVariables } from '#/@core/shared/color';
-import { updateCSSVariables as executeUpdateCSSVariables } from '#/@core/shared/utils';
+import { generatorColorVariables } from '#/@core/base/shared/src/color';
+import { updateCSSVariables as executeUpdateCSSVariables } from '#/@core/base/shared/src/utils';
 
 import { BUILT_IN_THEME_PRESETS } from './constants';
 

@@ -33,4 +33,4 @@ export {
 } from '#/@core/shadcn-ui';
 
 export type { FlattenedItem } from '#/@core/shadcn-ui';
-export { globalShareState } from '#/@core/shared/global-state';
+export { globalShareState } from '#/@core/base/shared/src/global-state';

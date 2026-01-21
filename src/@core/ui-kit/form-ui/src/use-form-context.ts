@@ -7,7 +7,7 @@ import type { ExtendedFormApi, FormActions, VbenFormProps } from './types';
 import { computed, unref, useSlots } from 'vue';
 
 import { createContext } from '#/@core/shadcn-ui';
-import { isString, mergeWithArrayOverride, set } from '#/@core/shared/utils';
+import { isString, mergeWithArrayOverride, set } from '#/@core/base/shared/src/utils';
 
 import { useForm } from 'vee-validate';
 import { object, ZodIntersection, ZodNumber, ZodObject, ZodString } from 'zod';

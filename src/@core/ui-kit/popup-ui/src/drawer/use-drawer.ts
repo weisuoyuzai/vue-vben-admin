@@ -14,7 +14,7 @@ import {
   ref,
 } from 'vue';
 
-import { useStore } from '#/@core/shared/store';
+import { useStore } from '#/@core/base/shared/src/store';
 
 import { DrawerApi } from './drawer-api';
 import VbenDrawer from './drawer.vue';

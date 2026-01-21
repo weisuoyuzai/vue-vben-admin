@@ -4,7 +4,7 @@ import type { ToggleGroupItemProps } from 'reka-ui';
 
 import { computed, inject } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { ToggleGroupItem, useForwardProps } from 'reka-ui';
 

@@ -1,6 +1,6 @@
 import type { Component, VNode } from 'vue';
 
-import type { Recordable } from '#/@core/typings';
+import type { Recordable } from '#/@core/base/typings/src';
 
 import type { AlertProps, BeforeCloseScope, PromptProps } from './alert';
 
@@ -8,7 +8,7 @@ import { h, nextTick, ref, render } from 'vue';
 
 import { useSimpleLocale } from '#/@core/composables';
 import { Input, VbenRenderContent } from '#/@core/shadcn-ui';
-import { isFunction, isString } from '#/@core/shared/utils';
+import { isFunction, isString } from '#/@core/base/shared/src/utils';
 
 import Alert from './alert.vue';
 

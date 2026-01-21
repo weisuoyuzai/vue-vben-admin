@@ -3,13 +3,13 @@ import type { Component } from 'vue';
 
 import { computed } from 'vue';
 
-import { IconDefault, IconifyIcon } from '#/@core/icons';
+import { IconDefault, IconifyIcon } from '#/@core/base/icons/src';
 import {
   isFunction,
   isHttpUrl,
   isObject,
   isString,
-} from '#/@core/shared/utils';
+} from '#/@core/base/shared/src/utils';
 
 const props = defineProps<{
   // 没有是否显示默认图标

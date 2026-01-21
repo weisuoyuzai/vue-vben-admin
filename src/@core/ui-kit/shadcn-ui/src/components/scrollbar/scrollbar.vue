@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { ClassType } from '#/@core/typings';
+import type { ClassType } from '#/@core/base/typings/src';
 
 import { computed, ref } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { ScrollArea, ScrollBar } from '../../ui';
 

@@ -1,6 +1,6 @@
 import type { Component, Ref } from 'vue';
 
-import type { MenuRecordBadgeRaw, ThemeModeType } from '#/@core/typings';
+import type { MenuRecordBadgeRaw, ThemeModeType } from '#/@core/base/typings/src';
 
 interface MenuProps {
   /**

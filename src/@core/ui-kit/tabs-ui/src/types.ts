@@ -1,5 +1,5 @@
 import type { IContextMenuItem } from '#/@core/shadcn-ui';
-import type { TabDefinition, TabsStyleType } from '#/@core/typings';
+import type { TabDefinition, TabsStyleType } from '#/@core/base/typings/src';
 
 export type TabsEmits = {
   close: [string];

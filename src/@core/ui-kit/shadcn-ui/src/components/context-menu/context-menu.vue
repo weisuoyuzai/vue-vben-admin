@@ -5,7 +5,7 @@ import type {
   ContextMenuRootProps,
 } from 'reka-ui';
 
-import type { ClassType } from '#/@core/typings';
+import type { ClassType } from '#/@core/base/typings/src';
 
 import type { IContextMenuItem } from './interface';
 

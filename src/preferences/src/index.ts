@@ -1,5 +1,5 @@
 import type { Preferences } from '#/@core/preferences';
-import type { DeepPartial } from '#/@core/typings';
+import type { DeepPartial } from '#/@core/base/typings/src';
 
 /**
  * 如果你想所有的app都使用相同的默认偏好设置，你可以在这里定义

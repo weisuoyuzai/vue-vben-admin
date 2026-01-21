@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Recordable } from '#/@core/typings';
+import type { Recordable } from '#/@core/base/typings/src';
 
 import type { ExtendedFormApi, VbenFormProps } from './types';
 
@@ -7,7 +7,7 @@ import type { ExtendedFormApi, VbenFormProps } from './types';
 import { nextTick, onMounted, watch } from 'vue';
 
 import { useForwardPriorityValues } from '#/@core/composables';
-import { cloneDeep, get, isEqual, set } from '#/@core/shared/utils';
+import { cloneDeep, get, isEqual, set } from '#/@core/base/shared/src/utils';
 
 import { useDebounceFn } from '@vueuse/core';
 

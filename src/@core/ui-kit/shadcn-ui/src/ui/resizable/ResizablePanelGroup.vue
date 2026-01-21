@@ -5,7 +5,7 @@ import type { HTMLAttributes } from 'vue';
 
 import { computed } from 'vue';
 
-import { cn } from '#/@core/shared/utils';
+import { cn } from '#/@core/base/shared/src/utils';
 
 import { SplitterGroup, useForwardPropsEmits } from 'reka-ui';
 

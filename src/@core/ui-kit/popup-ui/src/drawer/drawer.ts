@@ -1,6 +1,6 @@
 import type { Component, Ref } from 'vue';
 
-import type { ClassType, MaybePromise } from '#/@core/typings';
+import type { ClassType, MaybePromise } from '#/@core/base/typings/src';
 
 import type { DrawerApi } from './drawer-api';
 

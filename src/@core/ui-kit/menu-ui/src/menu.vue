@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { MenuRecordRaw } from '#/@core/typings';
+import type { MenuRecordRaw } from '#/@core/base/typings/src';
 
 import type { MenuProps } from './types';
 

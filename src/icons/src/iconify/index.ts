@@ -1,5 +1,5 @@
-import { createIconifyIcon } from '#/@core/icons';
+import { createIconifyIcon } from '#/@core/base/icons/src';
 
-export * from '#/@core/icons';
+export * from '#/@core/base/icons/src';
 
 export const MdiKeyboardEsc = createIconifyIcon('mdi:keyboard-esc');
