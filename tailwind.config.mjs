@@ -6,7 +6,11 @@ export default {
     extend: {
       colors: {
         border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
+        input: {
+          DEFAULT: 'hsl(var(--input))',
+          background: 'hsl(var(--input-background))',
+          placeholder: 'hsl(var(--input-placeholder))',
+        },
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
@@ -41,6 +45,10 @@ export default {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+        },
+        heavy: {
+          DEFAULT: 'hsl(var(--heavy))',
+          foreground: 'hsl(var(--heavy-foreground))',
         },
       },
       borderRadius: {
