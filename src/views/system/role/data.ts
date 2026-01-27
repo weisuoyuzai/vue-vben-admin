@@ -1,5 +1,5 @@
 import type { VbenFormSchema } from '#/adapter/form';
-import type { VxeTableGridOptions } from '#/adapter/vxe-table';
+import type { OnActionClickFn, VxeTableGridOptions } from '#/adapter/vxe-table';
 import type { SystemRoleApi } from '#/api';
 
 import { $t } from '#/locales';
@@ -75,7 +75,7 @@ export function useGridFormSchema(): VbenFormSchema[] {
 }
 
 export function useColumns<T = SystemRoleApi.SystemRole>(
-  onActionClick: (params: { code: string; row: T }) => void,
+  onActionClick: OnActionClickFn<T>,
   onStatusChange?: (newStatus: any, row: T) => Promise<boolean | undefined>,
 ): VxeTableGridOptions['columns'] {
   return [

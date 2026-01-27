@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { Recordable } from '#/types/src';
 
-import type { VxeTableGridOptions } from '#/adapter/vxe-table';
+import type { OnActionClickParams, VxeTableGridOptions } from '#/adapter/vxe-table';
 import type { SystemRoleApi } from '#/api';
 
 import { Page } from '#/effects/common-ui/src';
@@ -56,7 +56,7 @@ const [Grid, gridApi] = useVbenVxeGrid({
   } as VxeTableGridOptions<SystemRoleApi.SystemRole>,
 });
 
-function onActionClick(e: { code: string; row: SystemRoleApi.SystemRole }) {
+function onActionClick(e: OnActionClickParams<SystemRoleApi.SystemRole>) {
   switch (e.code) {
     case 'delete': {
       onDelete(e.row);
