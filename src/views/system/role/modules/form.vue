@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 import type { DataNode } from 'ant-design-vue/es/tree';
 
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '#/types/src';
 
 import type { SystemRoleApi } from '#/api/core/role';
 
 import { computed, nextTick, ref } from 'vue';
 
-import { Tree, useVbenDrawer } from '@vben/common-ui';
-import { IconifyIcon } from '@vben/icons';
+import { Tree } from '#/effects/common-ui/src';
+import { useVbenDrawer } from '#/@core/ui-kit/popup-ui/src';
 
 import { Spin } from 'ant-design-vue';
 
@@ -48,7 +48,7 @@ const [Drawer, drawerApi] = useVbenDrawer({
       });
   },
 
-  async onOpenChange(isOpen) {
+  async onOpenChange(isOpen: boolean) {
     if (isOpen) {
       const data = drawerApi.getData<SystemRoleApi.SystemRole>();
       formApi.resetForm();
@@ -114,7 +114,6 @@ function getNodeClass(node: Recordable<any>) {
             icon-field="meta.icon"
           >
             <template #node="{ value }">
-              <IconifyIcon v-if="value.meta.icon" :icon="value.meta.icon" />
               {{ $t(value.meta.title) }}
             </template>
           </Tree>

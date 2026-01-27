@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '#/types/src';
 
 import type { VxeTableGridOptions } from '#/adapter/vxe-table';
 import type { SystemRoleApi } from '#/api';
 
-import { Page, useVbenDrawer } from '@vben/common-ui';
-import { Plus } from '@vben/icons';
+import { Page } from '#/effects/common-ui/src';
+import { useVbenDrawer } from '#/@core/ui-kit/popup-ui/src';
 
 import { Button, message, Modal } from 'ant-design-vue';
 
@@ -152,7 +152,6 @@ function onCreate() {
     <Grid :table-title="$t('page.system.role.list')">
       <template #toolbar-tools>
         <Button type="primary" @click="onCreate">
-          <Plus class="size-5" />
           {{ $t('ui.actionTitle.create', [$t('page.system.role.name')]) }}
         </Button>
       </template>
