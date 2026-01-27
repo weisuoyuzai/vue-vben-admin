@@ -14,7 +14,9 @@ import { isFunction, isString } from '#/@core/base/shared/src/utils';
 
 import { useVbenForm } from './form';
 
-setupVbenVxeTable({
+// Only setup once, even during HMR
+if (!import.meta.hot || !import.meta.hot.data.vxeTableSetup) {
+  setupVbenVxeTable({
   configVxeTable: (vxeUI) => {
     vxeUI.setConfig({
       grid: {
@@ -268,6 +270,12 @@ setupVbenVxeTable({
   },
   useVbenForm,
 });
+
+  // Mark as setup for HMR
+  if (import.meta.hot) {
+    import.meta.hot.data.vxeTableSetup = true;
+  }
+}
 
 export { useVbenVxeGrid };
 
