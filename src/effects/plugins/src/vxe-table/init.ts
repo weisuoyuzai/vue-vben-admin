@@ -4,7 +4,7 @@ import { defineComponent, watch } from 'vue';
 
 import { usePreferences } from '#/preferences/src';
 
-import { useVbenForm } from '#/@core/form-ui';
+import { useVbenForm } from '#/@core/ui-kit/form-ui/src';
 
 import {
   VxeButton,

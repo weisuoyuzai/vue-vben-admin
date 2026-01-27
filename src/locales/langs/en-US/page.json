@@ -11,5 +11,19 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "system": {
+    "title": "System Management",
+    "role": {
+      "name": "Role",
+      "list": "Role List",
+      "roleName": "Role Name",
+      "id": "Role ID",
+      "status": "Status",
+      "remark": "Remark",
+      "createTime": "Create Time",
+      "operation": "Operation",
+      "setPermissions": "Set Permissions"
+    }
   }
 }
